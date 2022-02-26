@@ -1,0 +1,65 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+img {
+  width: 50%;
+}
+
+.info{
+  margin-top: 3%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 3rem;
+
+}
+
+#refresh{
+  background-color: transparent;
+  border: #4ECCA3 solid;
+  font-family: "Montserrat";
+  color: #4ECCA3;
+  font-size: 2.3rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+#refresh:hover{
+  background-color: #4ECCA3;
+  color: #232931;
+}
+
+#winner{
+  border: #4ECCA3 10px solid;
+  border-radius: 3rem 2px;
+  padding: 1rem;
+}
